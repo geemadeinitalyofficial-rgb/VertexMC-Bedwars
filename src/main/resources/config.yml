@@ -1,0 +1,101 @@
+# VertexBedwars Configuration
+# Ispirato a CoralMC BedWars
+
+settings:
+  lobby-world: "lobby"
+  lobby-spawn:
+    x: 0.5
+    y: 64.0
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
+  min-players: 2
+  max-wait-time: 60
+  respawn-time: 5
+  void-kill-height: -10
+  enable-spectator: true
+  chat-format: "&7[{team}] {player}: &f{message}"
+
+scoreboard:
+  enabled: true
+  title: "&b&lVERTEX &f&lBEDWARS"
+  update-interval: 10
+
+shop:
+  currency-items:
+    - IRON_INGOT
+    - GOLD_INGOT
+    - DIAMOND
+    - EMERALD
+  shop-villager-name: "&e&lSHOP"
+  upgrades-villager-name: "&a&lUPGRADES"
+
+generators:
+  iron:
+    default-delay: 2
+    max-items: 32
+    item: IRON_INGOT
+  gold:
+    default-delay: 8
+    max-items: 16
+    item: GOLD_INGOT
+  diamond:
+    default-delay: 30
+    max-items: 4
+    item: DIAMOND
+    team-required: false
+  emerald:
+    default-delay: 60
+    max-items: 2
+    item: EMERALD
+    team-required: false
+
+teams:
+  RED:
+    color: RED
+    display: "&c"
+    bed-wool: RED_WOOL
+  BLUE:
+    color: BLUE
+    display: "&9"
+    bed-wool: BLUE_WOOL
+  GREEN:
+    color: GREEN
+    display: "&a"
+    bed-wool: GREEN_WOOL
+  YELLOW:
+    color: YELLOW
+    display: "&e"
+    bed-wool: YELLOW_WOOL
+  AQUA:
+    color: AQUA
+    display: "&b"
+    bed-wool: CYAN_WOOL
+  WHITE:
+    color: WHITE
+    display: "&f"
+    bed-wool: WHITE_WOOL
+  PINK:
+    color: LIGHT_PURPLE
+    display: "&d"
+    bed-wool: PINK_WOOL
+  GRAY:
+    color: GRAY
+    display: "&8"
+    bed-wool: GRAY_WOOL
+
+messages:
+  prefix: "&b&lVertex &f&lBedwars &8» &r"
+  no-permission: "&cNon hai i permessi necessari!"
+  game-full: "&cLa partita è piena!"
+  already-in-game: "&cSei già in una partita!"
+  not-in-game: "&cNon sei in una partita!"
+  arena-not-found: "&cArena non trovata!"
+  bed-destroyed: "&cIl tuo letto è stato distrutto! Non riapparirai dopo la morte!"
+  bed-destroyed-by: "{team}&l➤ &r&cIl letto di {destroyed_team} &cè stato distrutto da &f{player}&c!"
+  player-eliminated: "{team}&l✘ &r{player} &7è stato eliminato!"
+  game-starting: "&aLa partita inizia in &e{time} &asecondi!"
+  game-started: "&aLa partita è iniziata!"
+  game-over: "&6&lPARTITA TERMINATA!"
+  winner-team: "&aIl team {team} &aha vinto!"
+  respawning: "&eTornerai in vita tra &c{time} &esecondi..."

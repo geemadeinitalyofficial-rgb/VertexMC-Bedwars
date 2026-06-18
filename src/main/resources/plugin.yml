@@ -1,0 +1,37 @@
+name: VertexBedwars
+version: '${project.version}'
+main: it.vertex.bedwars.VertexBedwars
+api-version: '1.21'
+description: Plugin BedWars ispirato a CoralMC
+authors: [VertexNetwork]
+website: https://vertex.it
+
+commands:
+  bedwars:
+    description: Comando principale BedWars
+    aliases: [bw]
+    usage: /bedwars <subcommand>
+  bwjoin:
+    description: Unisciti a una partita
+    usage: /bwjoin <arena>
+  bwleave:
+    description: Esci dalla partita
+    usage: /bwleave
+  bwstats:
+    description: Visualizza statistiche
+    usage: /bwstats [player]
+  bwsetup:
+    description: Setup arena (Admin)
+    usage: /bwsetup <subcommand>
+    permission: vertexbedwars.admin
+
+permissions:
+  vertexbedwars.admin:
+    description: Permessi admin BedWars
+    default: op
+  vertexbedwars.play:
+    description: Permesso per giocare
+    default: true
+  vertexbedwars.vip:
+    description: Permessi VIP
+    default: false
