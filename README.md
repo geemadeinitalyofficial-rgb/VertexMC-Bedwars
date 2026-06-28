@@ -1,10 +1,10 @@
-# VertexBedwars 🛏️⚔️
+# VertexMC Bedwars 🛏️⚔️
 
-Plugin BedWars per Minecraft **1.21+** (Paper/Spigot) ispirato a **CoralMC**, sviluppato da VertexMC Network.
+Plugin BedWars per Minecraft **1.21+** (Paper/Spigot) sviluppato da VertexMC Network.
 
 ---
 
-## 🎮 Funzionalità
+## Funzionalità
 
 ### Gameplay
 - Sistema **multi-arena** con configurazione in-game
@@ -14,7 +14,7 @@ Plugin BedWars per Minecraft **1.21+** (Paper/Spigot) ispirato a **CoralMC**, sv
 - **Void kill** configurabile
 - **Fuoco amico** disabilitato automaticamente
 
-### Generatori (stile CoralMC)
+### Generatori
 | Risorsa | Delay default | Max |
 |---------|--------------|-----|
 | Ferro   | 2s           | 32  |
@@ -26,7 +26,7 @@ Plugin BedWars per Minecraft **1.21+** (Paper/Spigot) ispirato a **CoralMC**, sv
 - Ologrammi sui generatori con nome e tier
 - **Forgia team** che velocizza i generatori di ferro/oro della propria base
 
-### Shop (pieno, stile CoralMC)
+### Shop
 - **Blocchi**: Legno, Terracotta, End Stone, Scale, Ossidiana, Vetro
 - **Armi**: Spade (legno → ferro → diamante), Arco (3 livelli), Frecce
 - **Armature**: Cotta → Ferro → Diamante (stivali + pantaloni)
@@ -153,7 +153,7 @@ plugins/VertexBedwars/
 
 ---
 
-## 🔧 Architettura
+##  Architettura progetto source
 
 ```
 it.vertex.bedwars
@@ -188,3 +188,4 @@ it.vertex.bedwars
     ├── ItemBuilder.java
     └── MessageUtil.java
 ```
+## Made by &44 whit ❤️
