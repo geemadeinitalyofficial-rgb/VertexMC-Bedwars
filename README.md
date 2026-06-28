@@ -1,6 +1,6 @@
 # VertexBedwars 🛏️⚔️
 
-Plugin BedWars per Minecraft **1.21+** (Paper/Spigot) ispirato a **CoralMC**, sviluppato da VertexNetwork.
+Plugin BedWars per Minecraft **1.21+** (Paper/Spigot) ispirato a **CoralMC**, sviluppato da VertexMC Network.
 
 ---
 
