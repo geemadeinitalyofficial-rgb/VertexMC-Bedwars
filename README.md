@@ -4,6 +4,8 @@ Plugin BedWars per Minecraft **1.21+** (Paper/Spigot) sviluppato da VertexMC Net
 
 ---
 
+## Compatibile con PlugManX
+
 ## Funzionalità
 
 ### Gameplay
